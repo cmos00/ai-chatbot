@@ -1,0 +1,12 @@
+{
+  "Splash_SignIn": {
+    "nodeId": "6:5542",
+    "imageUrl": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/89d0b2cc-55d4-4049-ba51-6c505be6e5f8",
+    "localPath": "src/assets/figma/Splash-SignIn.png"
+  },
+  "Splash_Normal": {
+    "nodeId": "6:5561",
+    "imageUrl": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d446027f-2176-417d-b513-ef660c7cf9fa",
+    "localPath": "src/assets/figma/Splash-Normal.png"
+  }
+}

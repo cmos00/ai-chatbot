@@ -1,0 +1,1340 @@
+{
+  "frameName": "Splash_SignIn",
+  "frameId": "6:5542",
+  "absoluteBoundingBox": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 667
+  },
+  "backgroundColor": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1
+  },
+  "components": [
+    {
+      "id": "6:5543",
+      "name": "BG",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "GRADIENT_LINEAR",
+          "gradientHandlePositions": [
+            {
+              "x": -0.5,
+              "y": 0.5
+            },
+            {
+              "x": 0.5,
+              "y": 1.5
+            },
+            {
+              "x": -1,
+              "y": 1
+            }
+          ],
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.14901961386203766,
+                "g": 0.8352941274642944,
+                "b": 0.6000000238418579,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.23137255012989044,
+                "g": 0.5098039507865906,
+                "b": 0.8509804010391235,
+                "a": 1
+              },
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "imageName": "BG.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/BG.png"
+    },
+    {
+      "id": "2021:5266",
+      "name": "Btn_Login",
+      "type": "GROUP",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 571,
+        "width": 152,
+        "height": 56
+      },
+      "fills": [],
+      "effects": [],
+      "exportable": true,
+      "imageName": "Btn-Login.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Btn-Login.png"
+    },
+    {
+      "id": "2021:5006",
+      "name": "Btn_Login",
+      "type": "INSTANCE",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Btn-Login.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Btn-Login.png"
+    },
+    {
+      "id": "I2021:5006;6:5545",
+      "name": "Btn_BG",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Btn-BG.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Btn-BG.png"
+    },
+    {
+      "id": "I2021:5006;6:5546",
+      "name": "Google",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 122.4000015258789,
+        "y": 582.4000244140625,
+        "width": 34,
+        "height": 34
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "IMAGE",
+          "scaleMode": "STRETCH",
+          "imageRef": "435c3f4eecd607a24da457793fcbc6bbfe5c40ae",
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "imageName": "Google.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Google.png"
+    },
+    {
+      "id": "2021:5260",
+      "name": "Btn_Login",
+      "type": "INSTANCE",
+      "absoluteBoundingBox": {
+        "x": 208,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Btn-Login.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Btn-Login.png"
+    },
+    {
+      "id": "I2021:5260;2021:5019",
+      "name": "Btn_BG",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 208,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Btn-BG.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Btn-BG.png"
+    },
+    {
+      "id": "6:5556",
+      "name": "SIGN IN WITH",
+      "type": "TEXT",
+      "absoluteBoundingBox": {
+        "x": 139,
+        "y": 532,
+        "width": 97,
+        "height": 19
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "SIGN-IN-WITH.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/SIGN-IN-WITH.png"
+    },
+    {
+      "id": "6:5557",
+      "name": "Logo",
+      "type": "FRAME",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 150
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Logo.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Logo.png"
+    },
+    {
+      "id": "6:5558",
+      "name": "TUPLE",
+      "type": "TEXT",
+      "absoluteBoundingBox": {
+        "x": 155,
+        "y": 377,
+        "width": 67,
+        "height": 32
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "TUPLE.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/TUPLE.png"
+    },
+    {
+      "id": "2021:5226",
+      "name": "Logo",
+      "type": "INSTANCE",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Logo.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Logo.png"
+    },
+    {
+      "id": "I2021:5226;2021:5172",
+      "name": "Logo",
+      "type": "GROUP",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "imageName": "Logo.png",
+      "imagePath": "/Users/kakaogames/tuple/src/assets/figma/components/Logo.png"
+    }
+  ],
+  "allComponents": [
+    {
+      "id": "6:5542",
+      "name": "Splash_SignIn",
+      "type": "FRAME",
+      "absoluteBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "6:5543",
+      "name": "BG",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "GRADIENT_LINEAR",
+          "gradientHandlePositions": [
+            {
+              "x": -0.5,
+              "y": 0.5
+            },
+            {
+              "x": 0.5,
+              "y": 1.5
+            },
+            {
+              "x": -1,
+              "y": 1
+            }
+          ],
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.14901961386203766,
+                "g": 0.8352941274642944,
+                "b": 0.6000000238418579,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.23137255012989044,
+                "g": 0.5098039507865906,
+                "b": 0.8509804010391235,
+                "a": 1
+              },
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "2021:5267",
+      "name": "Set_Login",
+      "type": "GROUP",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 532,
+        "width": 152,
+        "height": 95
+      },
+      "fills": [],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "2021:5266",
+      "name": "Btn_Login",
+      "type": "GROUP",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 571,
+        "width": 152,
+        "height": 56
+      },
+      "fills": [],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "2021:5006",
+      "name": "Btn_Login",
+      "type": "INSTANCE",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5006;6:5545",
+      "name": "Btn_BG",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 112,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5006;6:5546",
+      "name": "Google",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 122.4000015258789,
+        "y": 582.4000244140625,
+        "width": 34,
+        "height": 34
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "IMAGE",
+          "scaleMode": "STRETCH",
+          "imageRef": "435c3f4eecd607a24da457793fcbc6bbfe5c40ae",
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "2021:5260",
+      "name": "Btn_Login",
+      "type": "INSTANCE",
+      "absoluteBoundingBox": {
+        "x": 208,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5260;2021:5019",
+      "name": "Btn_BG",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 208,
+        "y": 571,
+        "width": 56,
+        "height": 56
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5260;2021:5021",
+      "name": "Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 223,
+        "y": 582,
+        "width": 26,
+        "height": 31.200000762939453
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(0, 0, 0)"
+    },
+    {
+      "id": "I2021:5260;2021:5022",
+      "name": "Path",
+      "type": "VECTOR",
+      "absoluteBoundingBox": {
+        "x": 223,
+        "y": 589.2000122070312,
+        "width": 26,
+        "height": 24
+      },
+      "fills": [],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "I2021:5260;2021:5023",
+      "name": "Path",
+      "type": "VECTOR",
+      "absoluteBoundingBox": {
+        "x": 236,
+        "y": 582,
+        "width": 5.909090995788574,
+        "height": 7.199999809265137
+      },
+      "fills": [],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "6:5556",
+      "name": "SIGN IN WITH",
+      "type": "TEXT",
+      "absoluteBoundingBox": {
+        "x": 139,
+        "y": 532,
+        "width": 97,
+        "height": 19
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "6:5557",
+      "name": "Logo",
+      "type": "FRAME",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 150
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "6:5558",
+      "name": "TUPLE",
+      "type": "TEXT",
+      "absoluteBoundingBox": {
+        "x": 155,
+        "y": 377,
+        "width": 67,
+        "height": 32
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "2021:5226",
+      "name": "Logo",
+      "type": "INSTANCE",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5226;2021:5172",
+      "name": "Logo",
+      "type": "GROUP",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "visible": false,
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5226;2021:5173",
+      "name": "Combined Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5226;2021:5174",
+      "name": "Rectangle",
+      "type": "VECTOR",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 87.87036895751953,
+        "height": 24
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5175",
+      "name": "Rectangle Copy",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 301,
+        "width": 24.07406997680664,
+        "height": 66
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5176",
+      "name": "Combined Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 259,
+        "width": 84.25926208496094,
+        "height": 84
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5177",
+      "name": "Oval",
+      "type": "ELLIPSE",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 259,
+        "width": 84.25926208496094,
+        "height": 84
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5178",
+      "name": "Oval",
+      "type": "ELLIPSE",
+      "absoluteBoundingBox": {
+        "x": 192.81480407714844,
+        "y": 283,
+        "width": 36.111114501953125,
+        "height": 36
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5179",
+      "name": "Combined Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 282.9999694824219,
+        "width": 42.12890625,
+        "height": 19.2001953125
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "GRADIENT_LINEAR",
+          "gradientHandlePositions": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": -0.5,
+              "y": 0
+            }
+          ],
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.00009999999747378752
+              },
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "I2021:5226;2021:5180",
+      "name": "Combined Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "GRADIENT_LINEAR",
+          "gradientHandlePositions": [
+            {
+              "x": -0.5,
+              "y": 0.5
+            },
+            {
+              "x": 0.5,
+              "y": 1.5
+            },
+            {
+              "x": -1,
+              "y": 1
+            }
+          ],
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.14901961386203766,
+                "g": 0.8352941274642944,
+                "b": 0.6000000238418579,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.23137255012989044,
+                "g": 0.5098039507865906,
+                "b": 0.8509804010391235,
+                "a": 1
+              },
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "I2021:5226;2021:5181",
+      "name": "Combined Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 130,
+        "height": 108
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "GRADIENT_LINEAR",
+          "gradientHandlePositions": [
+            {
+              "x": -0.5,
+              "y": 0.5
+            },
+            {
+              "x": 0.5,
+              "y": 1.5
+            },
+            {
+              "x": -1,
+              "y": 1
+            }
+          ],
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.14901961386203766,
+                "g": 0.8352941274642944,
+                "b": 0.6000000238418579,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.23137255012989044,
+                "g": 0.5098039507865906,
+                "b": 0.8509804010391235,
+                "a": 1
+              },
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true
+    },
+    {
+      "id": "I2021:5226;2021:5182",
+      "name": "Rectangle",
+      "type": "VECTOR",
+      "absoluteBoundingBox": {
+        "x": 123,
+        "y": 259,
+        "width": 87.87036895751953,
+        "height": 24
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5183",
+      "name": "Rectangle Copy",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 301,
+        "width": 24.07406997680664,
+        "height": 66
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5184",
+      "name": "Combined Shape",
+      "type": "BOOLEAN_OPERATION",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 259,
+        "width": 84.25926208496094,
+        "height": 84
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5185",
+      "name": "Oval",
+      "type": "ELLIPSE",
+      "absoluteBoundingBox": {
+        "x": 168.74073791503906,
+        "y": 259,
+        "width": 84.25926208496094,
+        "height": 84
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5186",
+      "name": "Oval",
+      "type": "ELLIPSE",
+      "absoluteBoundingBox": {
+        "x": 192.81480407714844,
+        "y": 283,
+        "width": 36.111114501953125,
+        "height": 36
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.847000002861023,
+            "g": 0.847000002861023,
+            "b": 0.847000002861023,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(216, 216, 216)"
+    },
+    {
+      "id": "I2021:5226;2021:5187",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 192.8148193359375,
+        "y": 302.20001220703125,
+        "width": 8.425926208496094,
+        "height": 45.60000228881836
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ],
+      "effects": [],
+      "exportable": true,
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    {
+      "id": "I2021:5226;2021:5188",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "absoluteBoundingBox": {
+        "x": 162.99578857421875,
+        "y": 283.0002746582031,
+        "width": 47.874576568603516,
+        "height": 19.20001220703125
+      },
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "GRADIENT_LINEAR",
+          "gradientHandlePositions": [
+            {
+              "x": 0.004083799743357708,
+              "y": 0
+            },
+            {
+              "x": 0.004083799743357708,
+              "y": 0.9918324005132846
+            },
+            {
+              "x": -0.4918324005132846,
+              "y": 0
+            }
+          ],
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.16970424354076385,
+                "g": 0.36372897028923035,
+                "b": 0.6014775633811951,
+                "a": 1
+              },
+              "position": 0
+            },
+            {
+              "color": {
+                "r": 0.16862745583057404,
+                "g": 0.364705890417099,
+                "b": 0.6000000238418579,
+                "a": 0.00009999999747378752
+              },
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "exportable": true
+    }
+  ]
+}

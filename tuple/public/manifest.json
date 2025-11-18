@@ -1,0 +1,10 @@
+{
+  "short_name": "Tuple",
+  "name": "Tuple - Language Exchange App",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#007AFF",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}
+

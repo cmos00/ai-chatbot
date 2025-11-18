@@ -1,0 +1,13 @@
+{
+    "servers": {
+      "figma": {
+        "command": "mcp-figma",
+        "args": [],
+        "env": {
+          "FIGMA_ACCESS_TOKEN": "figd_hbMqGDajOQQ-FPRBn6KRw4nuwHebkkEEKZkBKR0NN",
+          "FIGMA_FILE_KEY": "Zts6NQLxBJ0Agarysy6a07"
+        }
+      }
+    }
+  }
+  
