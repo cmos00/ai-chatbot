@@ -60,7 +60,7 @@ export default function Home() {
     <div className="flex flex-col h-screen bg-zinc-900 text-zinc-100">
       <header className="border-b border-zinc-800 px-6 py-4">
         <h1 className="text-lg font-semibold">AI Chat</h1>
-        <p className="text-xs text-zinc-500">llama-3.3-70b-versatile</p>
+        <p className="text-xs text-zinc-500">llama-4-scout-17b</p>
       </header>
       <ChatMessages messages={messages} streaming={streaming} />
       <ChatInput onSend={handleSend} disabled={streaming} />

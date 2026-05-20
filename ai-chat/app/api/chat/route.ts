@@ -5,8 +5,15 @@ export async function POST(req: Request) {
   const { messages }: { messages: Message[] } = await req.json();
 
   const stream = await groq.chat.completions.create({
-    model: "llama-3.3-70b-versatile",
-    messages: messages.map(({ role, content }) => ({ role, content })),
+    model: "meta-llama/llama-4-scout-17b-16e-instruct",
+    messages: [
+      {
+        role: "system",
+        content:
+          "You are a helpful assistant. Answer only what you know with confidence. If you are uncertain about a fact, clearly say so rather than guessing. Do not fabricate information.",
+      },
+      ...messages.map(({ role, content }) => ({ role, content })),
+    ],
     stream: true,
   });
 

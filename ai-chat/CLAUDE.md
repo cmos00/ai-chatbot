@@ -7,7 +7,7 @@ Groq API를 사용하는 로컬 전용 AI 채팅 애플리케이션.
 - **Framework**: Next.js 16+ (App Router, Turbopack)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + shadcn/ui
-- **AI**: `groq-sdk` — `llama-3.3-70b-versatile`
+- **AI**: `groq-sdk` — `meta-llama/llama-4-scout-17b-16e-instruct`
 - **Markdown**: `react-markdown` + `remark-gfm` + `rehype-highlight`
 
 ## Development
